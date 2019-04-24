@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Caesar Cipher</title>
+  
+  
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>  
+
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="App.js"></script>
+  
+</head>
+
+<body>
+			
+		<div class="login-wrap">
+		<div class="login-html">
+			<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">encryption</label>
+			<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">decription</label>
+			<div class="login-form">
+				<div class="sign-in-htm">
+					<div class="group">
+						<label for="user" class="label">Plan Text</label>
+						<input id="plan" name="ei" type="text" class="input">
+					</div>
+					<div class="group">
+						<label for="user" class="label">key</label>
+						<input id="offset" name="key" type="number" value="1" class="input">
+					</div>
+								
+									
+					<div class="group">
+						<button class="button" onclick="runCipher()">encrypt</button>
+					</div>
+					<div class="hr"></div>
+					<div class="group">
+						<label for="user" class="label">Cipher Text</label>
+						<input id="cypher" name="eo" type="text" class="input" disabled>
+					</div>
+					<div class="group">
+							<a class="button" href="../index.html"style="text-align:center">Back</a>
+					</div>
+				</div>
+				<div class="sign-up-htm">
+					<div class="group">
+						<label for="user" class="label">Cipher Text</label>
+						<input id="plan" name="di" type="text" class="input">
+					</div>
+					<div class="group">
+						<label for="user" class="label">key</label>
+						<input id="offset" name="dkey" type="number" value="1" class="input">
+					</div>
+								
+									
+					<div class="group">
+						<button class="button" onclick="runPlan()">decrypt</button>
+					</div>
+					<div class="hr"></div>
+					<div class="group">
+						<label for="user" class="label">Plan Text</label>
+						<input id="cypher" name="do" type="text" class="input" disabled>
+					</div>
+					<div class="group">
+							<a class="button" href="../index.html"style="text-align:center">Back</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+  
+
+</body>
+
+</html>

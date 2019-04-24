@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Decryption Service</title>
+  
+  
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>  
+
+    <link rel="stylesheet" href="../css/style.css">
+  
+</head>
+
+<body>
+
+  <div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">IS</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Close</label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+          <div id="inSec">
+              <div id="decForm">
+                  <div class="group">
+                      <p class="label" id="inputC">Ciphertext </p>
+                  </div>
+                  <div class="group">
+                      <textarea class="input"id="textC"name="cipherM"></textarea>
+                  </div>
+                  <div class="group">
+                      <button class="button" id="decButton" type="button">Decrypt</button>
+                  </div>
+              </div>
+            </div>
+            <div class="group">
+                <p class="label" id="inputP">Plain Text </p>
+            </div>
+                  <div class="group">
+                      <pre class="input" id="decT"></pre>
+                  </div>
+            
+				
+                
+				<div class="group">
+            <p id="homeLink"><a class="button"style="text-align:center" href="hill-cipher.html">Home</a></p>
+				</div>
+				<div class="group">
+            <p id="encryptLink"><a class="button"style="text-align:center" href="encrypt.html">encrypt</a></p>
+        </div>
+        <script src="scripts/util.js"></script>
+        <script src="scripts/storage.js"></script>
+        <script src="scripts/decrypt.js"></script>
+
+
+    
+			</div>
+		
+		</div>
+	</div>
+</div>
+  
+  
+
+</body>
+
+</html>
+
+

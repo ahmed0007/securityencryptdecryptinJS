@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hill Cipher</title>
+  
+  
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>  
+
+    <link rel="stylesheet" href="../css/style.css">
+  
+</head>
+
+<body>
+
+  <div class="login-wrap">
+	<div class="login-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">IS</label>
+		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Close</label>
+		<div class="login-form">
+			<div class="sign-in-htm">
+				
+                
+				<div class="group">
+            <h1 class="label" style="font-size:17px">Hill Cipher</h1>
+
+            <div id="inSec">
+              <p class="label" id="inputTM">Choose Key Matrix </p>
+              <div class="group"id="EDMenu">
+              <div class="group" style="">
+                    <div class="group">
+                            <button class="button" id="enhButton0" type="button" style="margin-bottom:50px;display:inline;width:45%;float:left">Encrypt</button>
+                    </div>
+                    <div class="group">
+                            <button class="button" id="dehButton0" type="button"style="margin-bottom:50px;display:inline;width:45%;float:right">Decrypt</button>
+                    </div>
+              </div>
+              
+            </div>
+            
+            
+              <div class="group">
+                  <select  style="text-align: center;display: inline;"class= "input"id="choice">
+                      <option value="m22">2 X 2 Matrix</option>
+                      <option value="m33">3 X 3 Matrix</option>
+                  </select>
+                
+              </div>
+              <div class="group" style="text-align:center;display: inline">
+                  <form id="m22" style="text-align:center;display: inline">
+                       <div class="group">
+                          <input style="text-align:center" id="tw0" type="number" name="index" min="0" max="25">
+                          <input style="text-align:center" id="tw1" type="number" name="index" min="0" max="25">
+                       </div>
+                       <div class="group">
+                          <input style="text-align:center" id="tw2" type="number" name="index" min="0" max="25">
+                          <input style="text-align:center" id="tw3" type="number" name="index" min="0" max="25">    
+                       </div>
+                    </form>
+              </div>
+            
+            
+              <div class="group"style="text-align:center">
+                  <form id="m33" style="text-align:center">
+                    <div class="group">
+                        <input style="text-align: left"id="tr0" type="number" name="index" min="0" max="25">
+                        <input style="text-align: center"id="tr1" type="number" name="index" min="0" max="25">
+                        <input style="text-align: right"id="tr2" type="number" name="index" min="0" max="25">
+                    </div>
+                    <div class="group">
+                        <input style="text-align: left"id="tr3" type="number" name="index" min="0" max="25">
+                        <input style="text-align: center"id="tr4" type="number" name="index" min="0" max="25">
+                        <input style="text-align: right"id="tr5" type="number" name="index" min="0" max="25">
+                    </div>
+                    <div class="group">
+                        <input style="text-align: left"id="tr6" type="number" name="index" min="0" max="25">
+                        <input style="text-align: center"id="tr7" type="number" name="index" min="0" max="25">
+                        <input style="text-align: right"id="tr8" type="number" name="index" min="0" max="25">
+                    </div>
+                    
+                    </form>
+              </div>
+              <div class="group">
+                  <button class="button" id="subButtonH" type="button">Submit</button>
+              </div>
+              <div class="group">
+                  <a class="button" href="../index.html"  style="text-align: center">Back</a>
+              </div>
+              
+              
+            
+            </div>
+            
+            <!-- need to use "strip" function in encrypt.js -->
+            <script src="scripts/util.js"></script>
+            <script src="scripts/storage.js"></script>
+            <script src="scripts/index.js"></script>
+				</div>
+				
+			</div>
+
+		</div>
+	</div>
+</div>
+  
+  
+
+</body>
+
+</html>
+

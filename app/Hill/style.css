@@ -1,0 +1,235 @@
+body {
+  padding: 25px;
+  margin: 0px auto;
+  text-align: center;
+  background-color: #2A385E;
+}
+
+#textP, #textC {
+  margin: 0px auto;
+  padding: 10px;
+  width: 50%;
+  height: 150px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+#choice {
+  margin: 0px auto;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+#encT, #decT {
+  margin: 0px auto;
+  color: #000;
+  width: 50%;
+  height: 80px;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+
+#subButton {
+  margin: 0px auto;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #2A385E;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  margin-left: 20px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+}
+a{
+  text-align: left;
+  color: #fff;
+}
+#subButtonH {
+  margin: 0px auto;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #2A385E;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+#encButton0, #decButton0 {
+  margin: 0px auto;
+  background-color: #73cf2a;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  display: block;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+#enhButton0, #dehButton0 {
+  margin: 0px auto;
+  background-color: #73cf2a;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  display: inline;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  margin: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+#EDMenu {
+  margin: 0px auto;
+  visibility: hidden;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+
+#decButton0 {
+  margin: 0px auto;
+  background-color: #9fbd38;
+  margin-top: -50px;
+  margin-left: 200px;
+  text-align: center;
+}
+
+#encButton, #decButton {
+  margin: 0px auto;
+  background-color: #4CDF50;
+  border: none;
+  position: relative;
+  border-radius: 5px;
+  color: black;
+  display: block;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  top: 25px;
+  left: 50px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+#Home {
+  margin: 0px auto;
+  background-color: #c1c8c1;
+  border: none;
+  border-radius: 5px;
+  color: black;
+  height: 50px;
+  font-size: 12pt;
+  font-weight: 600;
+  width: 120px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+}
+
+#m22 {
+  margin: 0px auto;
+  border: 1px solid #404440;
+  width: 150px;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+#m33 {
+  margin: 0px auto;
+  border: 1px solid #404440;
+  visibility: hidden;
+  position: absolute;
+  left: 200px;
+  top: 320px;
+  width: 210px;
+  height: 150px;
+  margin-top: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+input[type="number"] {
+  margin: 0px auto;
+  width: 50px;
+  height: 30px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+p#inputT {
+  margin: 0px auto;
+  font-size: 16pt;
+  display: inline-block;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#inputTM {
+  margin: 0px auto;
+  font-size: 16pt;
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+p#inputP, #inputC {
+  margin: 0px auto;
+  font-size: 16pt;
+  margin-left: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#intext {
+  margin: 0px auto;
+  margin-left: 20px;
+  padding: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+input[type=text] {
+  margin: 0px auto;
+  border-radius: 4px;
+  text-align: center;
+}

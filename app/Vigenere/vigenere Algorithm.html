@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <title>vigenere Cipher</title>
+  
+  
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:600'>  
+
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="js/vig.js"></script>
+  
+</head>
+
+<body>
+			
+		<div class="login-wrap">
+            <div class="login-html">
+                <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">vigenere</label>
+                <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Close</label>
+                    <div class="login-form">
+                        <div class="sign-in-htm">
+                            <form>
+                                <div class="container group" style="margin-top: 40px;">
+                                    <div class="alert alert-danger group" style="display: none;">
+                                          <strong id="alertxt"></strong> 
+                                    </div>
+                                    <div class="form-group group">
+                                        <label class="group" for="txt">Input text:</label>
+                                        <textarea class="form-control input" id="txt"></textarea>
+                                    </div>
+                                    <div class="form-group group">
+                                        <label class="group" for="txt">Key:</label>
+                                        <input type="text" name="text" class="form-control input">
+                                    </div>
+                                    <div class="form-group group">
+                                        <select class="form-control input">
+                                            <option class="group" value="0">crypt</option>
+                                            <option class="group" value="1">decrypt</option>
+                                        </select>
+                                    </div>
+                                    <hr>
+                                    <div class="form-group group">
+                                        <button class="button" type="button" onclick="calc()" class="btn btn-primary">GO!</button>
+                                    </div>
+                                    <div class="group">
+                                        <a class="button" href="../index.html"style="text-align:center">Back</a>
+                                    </div>
+                                    
+                                    
+                                </div>
+                                <script>
+                                    function calc() {
+                                        var txt = document.querySelector("textarea"),
+                                            key = document.querySelector("input"),
+                                            crypt = document.querySelector("select").value,
+                                            alertblock = document.querySelector(".alert"),
+                                            alertxt = document.querySelector("#alertxt");
+                                            try{
+                                                txt.value = vigenere(txt.value,key.value,crypt);
+                                                alertblock.style.display="none";
+                                            } catch(e) {
+                                                alertblock.style.display="block";
+                                                alertxt.innerText=e;
+                                            }
+                                    }
+                                </script>
+                            </form>
+                        </div>
+                    
+                    </div>    
+                </div>
+                
+            </div>
+        </div>
+	</div>
+  
+  
+
+</body>
+
+</html>
